@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alliance-pac/static/css/main.f855e6bc.css",
+    "main.js": "/alliance-pac/static/js/main.ca07b7b2.js",
+    "static/js/787.6abb3e40.chunk.js": "/alliance-pac/static/js/787.6abb3e40.chunk.js",
+    "static/media/logo.svg": "/alliance-pac/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/alliance-pac/index.html",
+    "main.f855e6bc.css.map": "/alliance-pac/static/css/main.f855e6bc.css.map",
+    "main.ca07b7b2.js.map": "/alliance-pac/static/js/main.ca07b7b2.js.map",
+    "787.6abb3e40.chunk.js.map": "/alliance-pac/static/js/787.6abb3e40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ca07b7b2.js"
+  ]
+}
