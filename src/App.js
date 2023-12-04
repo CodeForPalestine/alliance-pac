@@ -12,12 +12,20 @@ import jamaalImage from './images/jamaal.jpeg';
 import alImage from './images/al.jpeg';
 import thomasImage from './images/thomas.jpeg';
 
+const fundraisingGoal = 500000; // Goal amount of $500k
+
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
+}
+
+function generateRandomAmount(min, max, multiple) {
+  const range = (max - min) / multiple;
+  const randomNum = Math.floor(Math.random() * range) * multiple;
+  return min + randomNum;
 }
 
 function App() {
@@ -35,8 +43,18 @@ function App() {
     10: thomasImage
   };
 
+  // Add dummy fundraising data
+  const candidatesWithFundraising = candidates.map(candidate => ({
+    ...candidate,
+    raisedAmount: generateRandomAmount(50000, 450000, 500), // Generate amount between $50k and $450k, multiple of $500
+  })).map(candidate => ({
+    ...candidate,
+    raisedPercent: Math.round((candidate.raisedAmount / fundraisingGoal) * 100), // Calculate percentage
+    goalAmount: fundraisingGoal,
+  }));
+
   // Shuffle candidates array
-  const shuffledCandidates = shuffleArray([...candidates]);
+  const shuffledCandidates = shuffleArray([...candidatesWithFundraising]);
 
   return (
     <div>
@@ -52,7 +70,15 @@ function App() {
             <div className="candidate-content">
               <h5 className="candidate-title">{candidate.name}</h5>
               <p className="candidate-bio">{candidate.bio}</p>
-              <button className="donate-button">Donate</button>
+              <div className="donation-area">
+                <button className="donate-button">Donate</button>
+                <div className="progress-bar-container">
+                  <div className="progress-bar" style={{ width: `${candidate.raisedPercent}%` }}></div>
+                  <div className="progress-bar-text">
+                    ${candidate.raisedAmount.toLocaleString()} / ${candidate.goalAmount.toLocaleString()}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         ))}
