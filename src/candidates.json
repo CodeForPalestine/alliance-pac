@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Ilhan Omar",
+    "state": "MN",
+    "bio": "Ilhan Omar, a U.S. Representative, strongly criticizes Israel's policies towards Palestinians, advocating for their rights. She supports the Boycott, Divestment, Sanctions (BDS) movement against Israel, condemning human rights abuses and military actions in Gaza. Omar calls for the protection of Palestinians and has described Israeli airstrikes that led to civilian casualties as acts of terrorism.",
+    "image": "images/ilhan.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Rashida Tlaib",
+    "state": "MI",
+    "bio": "Rashida Tlaib, a U.S. Representative and the first Palestinian-American woman in Congress, actively promotes Palestinian rights. She emphasizes the need for democracy, safety, and dignity for Palestinians, advocating for a permanent ceasefire in the Israel-Palestine conflict. Tlaib's support includes releasing videos in favor of Palestine and calling for the recognition of significant Palestinian casualties in Gaza.",
+    "image": "images/rashida.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Summer Lee",
+    "state": "PA",
+    "bio": "U.S. Representative Summer Lee supports Palestinian rights, evidenced by her introduction of a resolution for an immediate ceasefire in 'Israel and occupied Palestine.' She has not supported a resolution affirming support for Israel, instead advocating for the Ceasefire Now resolution to protect Israeli hostages and Palestinian civilians. Additionally, Lee co-sponsored legislation to restrict aid to Israel.",
+    "image": "images/summer.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Cori Bush",
+    "state": "MO",
+    "bio": "U.S. Representative Cori Bush is a vocal supporter of Palestinian rights. She co-led the Ceasefire Now Resolution to halt violence in Israel and Occupied Palestine and participated in a vigil recognizing lives lost in both regions. Bush led an effort urging the U.S. State Department to address Israeli plans to displace Palestinians in the West Bank and openly opposes funding for military actions harming Palestinians, advocating for alternative uses of those funds.",
+    "image": "images/cori.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "André Carson",
+    "state": "IN",
+    "bio": "U.S. Representative André Carson advocates for a new U.S. policy towards Israel and Palestine, condemning Israel's two-tiered rule over Palestinians. He draws parallels between Palestinian resistance and the Black American civil rights movement. Carson voted against a resolution denying Israel as a racist or apartheid state and supports an immediate ceasefire in Gaza. He criticizes Israel's outlawing of Palestinian organizations, emphasizing the negative impact on those dependent on their support.",
+    "image": "images/andre.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Alexandria Ocasio-Cortez",
+    "state": "NY",
+    "bio": "U.S. Representative Alexandria Ocasio-Cortez is a prominent progressive legislator who has been increasingly critical of U.S. support for Israel. She has labeled Israel an 'apartheid state' in response to its actions during the bombardment of the Gaza Strip. Ocasio-Cortez's criticism extends to U.S. foreign policy, urging the Biden administration to adopt a tougher stance against Israel amid escalating tensions. Her comments highlight her strong stance on the Israel-Palestine conflict, where she emphasizes the need for democracy and human rights, contrasting the treatment of Palestinians with democratic ideals.",
+    "image": "images/aoc.jpeg"
+  }
+]
+
