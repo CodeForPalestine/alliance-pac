@@ -20,21 +20,24 @@ function App() {
   };
 
   return (
-    <div className="app-container">
-      {candidates.map(candidate => (
-        <div key={candidate.id} className="candidate-card">
-          <img
-            src={imageMap[candidate.id]}
-            alt={candidate.name}
-            className="candidate-image"
-          />
-          <div className="candidate-content">
-            <h5 className="candidate-title">{candidate.name}</h5>
-            <p className="candidate-bio">{candidate.bio}</p>
-            <button className="donate-button">Donate</button>
+    <div>
+      <h1 className="page-title">Alliance PAC Candidates</h1>
+      <div className="app-container">
+        {candidates.map(candidate => (
+          <div key={candidate.id} className="candidate-card">
+            <img
+              src={imageMap[candidate.id]}
+              alt={candidate.name}
+              className="candidate-image"
+            />
+            <div className="candidate-content">
+              <h5 className="candidate-title">{candidate.name}</h5>
+              <p className="candidate-bio">{candidate.bio}</p>
+              <button className="donate-button">Donate</button>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

@@ -1,3 +1,12 @@
+.page-title {
+  text-align: center;
+  font-size: 2rem; /* Adjust the size as needed */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #333; /* Or any color that fits your design */
+  font-family: 'Arial', sans-serif; /* Choose a font that fits your design */
+}
+
 .app-container {
   margin-top: 1rem;
   display: flex;
@@ -7,23 +16,28 @@
 }
 
 .candidate-card {
-  flex-basis: calc(100% - 1rem); /* Default to full width for small screens */
+  flex-basis: calc(100% - 1rem); /* Full width for small screens */
   border: 1px solid #ddd;
   border-radius: 5px;
   overflow: hidden;
 }
 
-/* Medium screens - 2 cards per row */
-@media (min-width: 600px) {
+/* Stretch from 600px to 900px */
+@media (min-width: 600px) and (max-width: 900px) {
   .candidate-card {
-    flex-basis: calc(50% - 1rem);
+    flex-basis: calc(50% - 1rem); /* 2 cards per row */
   }
 }
 
-/* Large screens - 3 cards per row */
+/* Beyond 900px, stop stretching and center */
 @media (min-width: 900px) {
+  .app-container {
+    max-width: 900px; /* Maximum container width */
+    margin-left: auto;
+    margin-right: auto;
+  }
   .candidate-card {
-    flex-basis: calc(33.333% - 1rem);
+    flex-basis: calc(50% - 1rem); /* Maintain 2 cards per row */
   }
 }
 
