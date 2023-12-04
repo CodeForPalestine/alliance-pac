@@ -7,9 +7,21 @@ import summerImage from './images/summer.jpeg';
 import coriImage from './images/cori.jpeg';
 import andreImage from './images/andre.jpeg';
 import alexandriaImage from './images/aoc.jpeg';
+import deliaImage from './images/delia.jpeg';
+import jamaalImage from './images/jamaal.jpeg';
+import alImage from './images/al.jpeg';
+import thomasImage from './images/thomas.jpeg';
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 function App() {
-  // Image mapping
+  // Updated image mapping
   const imageMap = {
     1: ilhanImage,
     2: rashidaImage,
@@ -17,13 +29,20 @@ function App() {
     4: coriImage,
     5: andreImage,
     6: alexandriaImage,
+    7: deliaImage,
+    8: jamaalImage,
+    9: alImage,
+    10: thomasImage
   };
+
+  // Shuffle candidates array
+  const shuffledCandidates = shuffleArray([...candidates]);
 
   return (
     <div>
       <h1 className="page-title">Alliance PAC Candidates</h1>
       <div className="app-container">
-        {candidates.map(candidate => (
+        {shuffledCandidates.map(candidate => (
           <div key={candidate.id} className="candidate-card">
             <img
               src={imageMap[candidate.id]}

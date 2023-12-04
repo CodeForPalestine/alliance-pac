@@ -40,6 +40,34 @@
     "state": "NY",
     "bio": "U.S. Representative Alexandria Ocasio-Cortez is a prominent progressive legislator who has been increasingly critical of U.S. support for Israel. She has labeled Israel an 'apartheid state' in response to its actions during the bombardment of the Gaza Strip. Ocasio-Cortez's criticism extends to U.S. foreign policy, urging the Biden administration to adopt a tougher stance against Israel amid escalating tensions. Her comments highlight her strong stance on the Israel-Palestine conflict, where she emphasizes the need for democracy and human rights, contrasting the treatment of Palestinians with democratic ideals.",
     "image": "images/aoc.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Delia Ramirez",
+    "state": "IL",
+    "bio": "Congresswoman Delia Ramirez has expressed her support for Palestine by signing a resolution calling for an immediate de-escalation and ceasefire in Israel and Palestine. She was among only ten House members voting against a U.S. House resolution that affirmed American support for Israel and condemned Hamas, standing with six members of the 'Squad' in her opposition.",
+    "image": "images/delia.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Jamaal Bowman",
+    "state": "NY",
+    "bio": "Congressman Jamaal Bowman, representing New York, has taken several actions to support Palestine. He has called for the U.S. to welcome Palestinian refugees fleeing Gaza due to Israel’s military actions. Bowman has urged the Biden administration to reconsider U.S. policy towards Israel, recognizing the worsening violence and the denial of Palestinian rights. He is also a co-sponsor of legislation to impose limitations on U.S. military aid to Israel.",
+    "image": "images/jamaal.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Al Green",
+    "state": "TX",
+    "bio": "Congressman Al Green has voiced his support for Palestine, specifically calling for a ceasefire against the killing of innocent Palestinian civilians, including men, women, and children. He has also addressed his decision not to sign onto H.Res.771, a resolution standing with Israel, requesting amendments to it.",
+    "image": "images/al.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Thomas Massie",
+    "state": "R-KY",
+    "bio": "Representative Thomas Massie, a Kentucky Republican, has shown his stance through his voting record. He voted against a resolution that equates anti-Zionism with other forms of hate, arguing it contains an open-ended promise of military support that could commit U.S. soldiers to the conflict. Massie has also voted against a resolution honoring the U.S.-Israeli relationship on Israeli Independence Day, aligning with members of the 'Squad' in his opposition to pro-Israel measures.",
+    "image": "images/thomas.jpeg"
   }
 ]
 
